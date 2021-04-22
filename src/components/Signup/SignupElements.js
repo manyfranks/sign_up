@@ -16,7 +16,7 @@ export const Container = styled.div`
     right: 0;
     top: 0;
     z-index: 0;
-    overflow: scroll;
+    overflow-y: scroll;
     background: linear-gradient(
         108deg,
         rgba(1,147,86,1) 60%,

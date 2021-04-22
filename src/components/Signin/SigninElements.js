@@ -11,13 +11,15 @@ export const Divide = styled(Divider)`
 export const Container = styled.div`
     /* min-height: 692px; */
     width: 100%;
+    height: 100vh;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     top: 0;
     z-index: 0;
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
     background: linear-gradient(
         108deg,
         rgba(1,147,86,1) 60%,
